@@ -1,6 +1,5 @@
 ## 基本步骤和命令
->参考-廖雪峰git教程文档
->https://www.liaoxuefeng.com/wiki/896043488029600
+>参考-[廖雪峰git教程文档](https://www.liaoxuefeng.com/wiki/896043488029600/)
 1. 启动本地git命令行
 >开始菜单 >git>Git bash
 2. 进入本地仓库
@@ -98,9 +97,7 @@ v1.0
 + 查看分支合并图：git log --graph
 
 **历史版本**
->HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，
+>HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭。
 + 使用命令git reset --hard commit_id。
 + 穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
 + 要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
-
-
